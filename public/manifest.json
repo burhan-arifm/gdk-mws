@@ -1,0 +1,25 @@
+{
+    "name" : "Blognya Burhan Arif M",
+    "short_name": "blog",
+    "icons" : [
+        {
+            "src":"assets/img/MyIcon100pixel.png",
+            "size":"100x100",
+            "type":"image/png"
+        },
+        {
+            "src":"assets/img/MyIcon200pixel.png",
+            "size":"200x200",
+            "type":"image/png"
+        },
+        {
+            "src":"assets/img/MyIcon300pixel.png",
+            "size":"300x300",
+            "type":"image/png"
+        }
+    ],
+    "start_url": "/?utm_source=homescreen",
+    "background_color": "#3E4EB8",
+    "Theme_color": "#2F3BA2",
+    "display": "standalone"
+}

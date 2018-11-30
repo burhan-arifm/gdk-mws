@@ -27,13 +27,13 @@ async function f(url) {
     try {
         const resp = await(fetch(url));
         const resp2 = await resp.json();
-        localStorage.setItem('places', JSON.stringify(resp.places));
+        localStorage.setItem("places", JSON.stringify(resp2.places));
     } catch (err) {
         console.log(err);
     }
 }
 
-const URL="./assets/data/map.json";
+const URL="assets/data/map.json";
 f(URL);
 
 //add marker

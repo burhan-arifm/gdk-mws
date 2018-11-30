@@ -5,20 +5,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>My CSS-Grid</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/mygrid.css" />
-  <script src="main.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/mygrid.css">
+  <link rel="manifest" href="/manifest.json">
 </head>
 <body>
   <div class="container">
     <div class="menu"><img src="assets/img/baseline-play_for_work-24px.svg" alt="Icon"></div>
     <div class="header">Creamed@Bdg</div>
-    <div class="sidebar"><img class="responsive" src="assets/img/1978913_10200646142115539_2128971727_n.jpg" alt="Profile Photo" >Profile Photo</div>
+    <div class="sidebar"><img class="responsive" src="assets/img/profpic.jpg" alt="Profile Photo" >Profile Photo</div>
     <div class="content">
-      <div class="subcontent"><a href="countnum.html">Menghitung Dua Angka</a></div>
-      <div class="subcontent"><a href="center_map.html">Peta Kuliner</a></div>
-      <div class="subcontent"><a href="myprofile.html">Profil Saya</a></div>
+      <div class="subcontent"><a href="p1/countnum.html">Menghitung Dua Angka</a></div>
+      <div class="subcontent"><a href="p2/center_map.html">Informasi WSE Center</a></div>
+      <div class="subcontent"><a href="p3/fetchjson.html">Informasi WSE Center v2</a></div>
+      <div class="subcontent"><a href="p4/materi.html">Download File Latihan</a></div>
     </div>
     <div class="footer">Burhan Arif M @ GDK-MWS 2018</div>
   </div>
+  <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('sw.js')
+      .then(reg => console.log('SW has been registered', reg))
+      .catch(err => console.log('SW Error: ', err));
+    });
+  }
+  </script>
 </body>
 </html>
