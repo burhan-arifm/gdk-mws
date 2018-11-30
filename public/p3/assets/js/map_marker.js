@@ -37,7 +37,7 @@ const URL="assets/data/map.json";
 f(URL);
 
 //add marker
-let places = localStorage.getItem('places');
+let places = JSON.parse(localStorage.getItem('places'));
 for (var center of places) {
     var marker = L.marker(center.lokasi).addTo(mymap).bindPopup(center.sponsor);
     marker.on('click', showLocation);
