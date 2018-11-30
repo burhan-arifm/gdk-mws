@@ -1,0 +1,6 @@
+.firebase
+firebase.json
+.firebaserc
+mapbox token
+node_modules
+package-lock.json
