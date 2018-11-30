@@ -3,11 +3,11 @@ let filesToCache = [
     '.',
     'index.html',
     '404.html',
-    'countnum.html',
+    'p1/countnum.html',
     'assets/css/mygrid.css',
     'assets/css/countnum.css',
     'assets/img/profpic.jpg',
-    'assets/js/countnum.js'
+    'p1/assets/js/countnum.js'
 ];
 
 self.addEventListener('install', event => {
