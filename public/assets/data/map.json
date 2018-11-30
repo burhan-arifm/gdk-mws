@@ -1,0 +1,45 @@
+{
+    "places" : [
+        {
+            "lokasi"    : [-6.8874454,107.5962215],
+            "sponsor"   : "WSE Paris Van Java SOHO Center",
+            "gambar"    : "./assets/img/BDO-PVJ.jpg",
+            "review"    : "It's a great place to learn English. In here, you will feel like not living in Indonesia. Why? Because they have a culture named TEE (Total English Environment) where you are only allowed to speak in English. I recommend taking the course here and change our future."
+        },
+        {
+            "lokasi"    : [-6.225074, 106.843316],
+            "sponsor"   : "WSE Kota Kasablanka Center",
+            "gambar"    : "./assets/img/JKT-KAS.jpg",
+            "review"    : "Friendly and comfortable, I like this place, honestly, the price course so expensive, but it's worth the money with all facilities and services. 😅"
+        },
+        {
+            "lokasi"    : [-6.224128, 106.809427],
+            "sponsor"   : "WSE Pacific Place Center",
+            "gambar"    : "./assets/img/JKT-PAC.jpg",
+            "review"    : "r2"
+        },
+        {
+            "lokasi"    : [-6.243979, 106.653879],
+            "sponsor"   : "WSE Living World Center",
+            "gambar"    : "./assets/img/TGR-LIV.jpg",
+            "review"    : "Wall Street English has always been a modern and cozy English course for adults. Now that it has moved from Mall @Alam Sutra to Living World makes it more open to the market as it is more crowded. But as it is located on the 2nd floor at the corner, next to Pendopo makes it hard to be found."
+        },
+        {
+            "lokasi"    : [-6.265633, 106.782871],
+            "sponsor"   : "WSE Pondok Indah Center",
+            "gambar"    : "./assets/img/JKT-PIM.jpg",
+            "review"    : "Really good, clean and comfortable place. I have been there for invitation placement test, and I really amazed with the situation there. The consultant really nice. She explain me about their course step by step and tell me about the charge fee, but she didn't force me to join the course, she just wanted me to know about that course. She explain me that this course is really flexible and you can go there anytime without schedule. I think it is really fun."},
+        {
+            "lokasi"    : [-6.156338, 106.909266],
+            "sponsor"   : "WSE Mall Kelapa Gading Center",
+            "gambar"    : "./assets/img/JKT-MKG.jpg",
+            "review"    : "This place moved from La Piazza. The area is great, so much space with helpful staffs. Too bad it's not equiped with good computer and devices. Their method is very suitable for working person who doesn't have much time to learn but have enough money to burn."
+        },
+        {
+            "lokasi"    : [-6.176792, 106.791271],
+            "sponsor"   : "WSE Central Park Center",
+            "gambar"    : "./assets/img/JKT-CPA.jpg",
+            "review"    : "Wall Street English has become the go-to place not only to learn English but also to hang-out, chill, and relax with your friends. You'll get so much more than learning English here: you'll meet new people, build your confidence, broaden your horizon, and of course have fun. WSE is the first step to a better and brighter future."
+        }
+    ]
+}
